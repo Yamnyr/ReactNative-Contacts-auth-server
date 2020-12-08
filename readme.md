@@ -25,6 +25,7 @@ Tous les paramètres et les réponses des différentes requêtes sont exprimés 
 ### Authentification
 Avec login / mot de passe ou bien refresh token
 * route : **/auth/login**
+* méthode : POST
 * paramètres : { login, password } ou { refreshToken }
 * réponses : 
    * status 200, { jwt, refreshToken } en cas de réussite
